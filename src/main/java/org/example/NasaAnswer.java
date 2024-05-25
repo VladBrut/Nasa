@@ -2,7 +2,7 @@ package org.example;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class Nasa {
+public class NasaAnswer {
     private String copyright;
     private String date;
     private String explanation;
@@ -12,7 +12,7 @@ public class Nasa {
     private String title;
     private String url;
 
-    public Nasa(
+    public NasaAnswer(
             @JsonProperty("copyright") String copyright,
             @JsonProperty("date") String date,
             @JsonProperty("explanation") String explanation,
